@@ -2,29 +2,35 @@
 title: ArrayUtils 数组
 ---
 
-### ArrayUtils.flat2tree(array, options = `{}`)
+::: info
+Since：<badge text="0.0.4" vertical="middle"></badge>
 
-扁平数组转树形结构数组
+作者：小何同学
+:::
+
+### ArrayUtils.flat2tree
+
+<badge text="0.0.4" vertical="middle"></badge> 扁平数组转树形结构数组
 
 #### 参数
 
-- array：`any[]` 扁平数组
+- `[array]` (any[])：扁平数组
 
-- options：`Flat2TreeOptions` 配置项
+- `[options]` ([IArrayUtilsFlat2TreeOptions](#iarrayutilsflat2treeoptions))：配置项
 
 #### 类型
 
-##### Flat2TreeOptions
+##### IArrayUtilsFlat2TreeOptions
 
 |参数|说明|类型|可选值|默认值|
 |---|---|---|---|---|
 |key|节点唯一标识属性名|string|-|id|
 |parentKey|父节点唯一标识属性名|string|-|pid|
-|processor|节点数据处理器|(item: any) => item: any|-|`(item) => (item)`|
+|processor|节点数据处理器|(item: T) => T|-|`(item) => (item)`|
 
 #### 返回
 
-`any[]` 树形结构数组
+`T[]`：树形结构数组
 
 ::: details 使用示例（点击展开查看）
 ```javascript
@@ -87,28 +93,28 @@ ArrayUtils.flat2tree(array);
 ```
 :::
 
-### ArrayUtils.tree2flat(array, options = `{}`)
+### ArrayUtils.tree2flat
 
-树形结构数组转扁平数组
+<badge text="0.0.4" vertical="middle"></badge> 树形结构数组转扁平数组
 
 #### 参数
 
-- array：`any[]` 树形结构数组
+- `[array]` (any[])：树形结构数组
 
-- options：`Tree2FlatOptions` 配置项
+- `[options]` ([IArrayUtilsTree2FlatOptions](#iarrayutilstree2flatoptions))：配置项
 
 #### 类型
 
-##### Tree2FlatOptions
+##### IArrayUtilsTree2FlatOptions
 
 |参数|说明|类型|可选值|默认值|
 |---|---|---|---|---|
 |childrenKey|子节点集合属性名|string|-|children|
-|processor|节点数据处理器|(item: any) => item: any|-|`(item) => (item)`|
+|processor|节点数据处理器|(item: T) => T|-|`(item) => (item)`|
 
 #### 返回
 
-`any[]` 扁平数组
+`T[]`：扁平数组
 
 ::: details 使用示例（点击展开查看）
 ```javascript
@@ -159,25 +165,25 @@ ArrayUtils.tree2flat(array);
 ```
 :::
 
-### ArrayUtils.recursiveTraversal(array, options = `{}`)
+### ArrayUtils.recursiveTraversal
 
-递归遍历树形结构数组
+<badge text="0.0.4" vertical="middle"></badge> 递归遍历树形结构数组
 
 #### 参数
 
-- array：`any[]` 树形结构数组
+- `[array]` (any[])：树形结构数组
 
-- options：`RecursiveTraversalOptions` 配置项
+- `[options]` ([IArrayUtilsRecursiveTraversalOptions](#iarrayutilsrecursivetraversaloptions))：配置项
 
 #### 类型
 
-##### RecursiveTraversalOptions
+##### IArrayUtilsRecursiveTraversalOptions
 
 |参数|说明|类型|可选值|默认值|
 |---|---|---|---|---|
 |childrenKey|子节点集合属性名|string|-|children|
 |parent|父节点数据|any|-|-|
-|processor|节点数据处理器|(item: any, parent: any) => void|-|-|
+|processor|节点数据处理器|(item: T, parent?: T) => void|-|-|
 
 ::: details 使用示例（点击展开查看）
 ```javascript
@@ -209,6 +215,6 @@ ArrayUtils.recursiveTraversal(tree, {
     console.log(item, parent);
   }
 });
-// => 依次为 test3、test2、test1、test5、test4、test6 对象本身及其父节点的引用
+// => 依次为 test1、test2、test3、test4、test5、test6 对象本身及其父节点的引用
 ```
 :::
