@@ -2,7 +2,7 @@
 icon: home
 description: 🎈 小何同学的JavaScript工具箱
 home: true
-heroImage: /logo.png
+heroImage: /logo.svg
 heroText: xiaohejs
 tagline: 🎈 小何同学的JavaScript工具箱
 actions:

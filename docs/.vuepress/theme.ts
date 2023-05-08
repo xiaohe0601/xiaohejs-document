@@ -29,7 +29,7 @@ export default HopeTheme({
       })
     }
   },
-  logo: "/logo.png",
+  logo: "/logo.svg",
   repo: "https://github.com/MyHdg0601/xiaohejs",
   editLink: false,
   displayFooter: true,
