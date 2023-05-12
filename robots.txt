@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://myhdg0601.github.io/xiaohejs-document/sitemap.xml
+Sitemap: https://xiaohejs.myhdg.top/sitemap.xml
