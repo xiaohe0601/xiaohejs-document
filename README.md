@@ -11,11 +11,11 @@
 
 ### 🛩️ 在线文档
 
-- [文档首页](https://myhdg0601.github.io/xiaohejs-document)
+- [文档首页](https://xiaohejs.myhdg.top)
 
-- [快速上手](https://myhdg0601.github.io/xiaohejs-document/guide/getting-started.html)
+- [快速上手](https://xiaohejs.myhdg.top/guide/getting-started.html)
 
-- [小何同学](https://myhdg0601.github.io/xiaohejs-document/about/xiaohe.html)
+- [小何同学](https://xiaohejs.myhdg.top/about/xiaohe.html)
 
 ### 🎉 特性
 
