@@ -7,7 +7,7 @@
 
 ### 🚁 项目仓库
 
-[🎈 github](https://github.com/MyHdg0601/xiaohejs) / [🎗️ gitee](https://gitee.com/MyHdg/xiaohejs) / 🎃 no more
+[🎈 github](https://github.com/xiaohe0601/xiaohejs) / [🎗️ gitee](https://gitee.com/xiaohe0601/xiaohejs) / 🎃 no more
 
 ### 🛩️ 在线文档
 

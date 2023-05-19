@@ -5,19 +5,19 @@ icon: emoji
 
 ### 徽章
 
-![GitHub stars](https://img.shields.io/github/stars/MyHdg0601/xiaohejs?logo=GitHub&style=flat-square){.repo-badge}
-![GitHub forks](https://img.shields.io/github/forks/MyHdg0601/xiaohejs?logo=GitHub&style=flat-square){.repo-badge}
-![GitHub watchers](https://img.shields.io/github/watchers/MyHdg0601/xiaohejs?logo=GitHub&style=flat-square){.repo-badge}
-![GitHub release](https://img.shields.io/github/v/release/MyHdg0601/xiaohejs?logo=GitHub&style=flat-square){.repo-badge}
-![GitHub license](https://img.shields.io/github/license/MyHdg0601/xiaohejs?style=flat-square){.repo-badge}
+![GitHub stars](https://img.shields.io/github/stars/xiaohe0601/xiaohejs?logo=GitHub&style=flat-square){.repo-badge}
+![GitHub forks](https://img.shields.io/github/forks/xiaohe0601/xiaohejs?logo=GitHub&style=flat-square){.repo-badge}
+![GitHub watchers](https://img.shields.io/github/watchers/xiaohe0601/xiaohejs?logo=GitHub&style=flat-square){.repo-badge}
+![GitHub release](https://img.shields.io/github/v/release/xiaohe0601/xiaohejs?logo=GitHub&style=flat-square){.repo-badge}
+![GitHub license](https://img.shields.io/github/license/xiaohe0601/xiaohejs?style=flat-square){.repo-badge}
 
 ### 作者
 
-小何同学 / [github@MyHdg0601](https://github.com/MyHdg0601) / [gitee@MyHdg](https://gitee.com/MyHdg)
+小何同学 / [github@xiaohe0601](https://github.com/xiaohe0601) / [gitee@xiaohe0601](https://gitee.com/xiaohe0601)
 
 ### 仓库
 
-[🎈 github](https://github.com/MyHdg0601/xiaohejs) / [🎗️ gitee](https://gitee.com/MyHdg/xiaohejs) / 🎃 no more
+[🎈 github](https://github.com/xiaohe0601/xiaohejs) / [🎗️ gitee](https://gitee.com/xiaohe0601/xiaohejs) / 🎃 no more
 
 ### 介绍
 

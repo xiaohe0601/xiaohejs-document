@@ -4,7 +4,7 @@ export default HopeTheme({
   hostname: "https://xiaohejs.myhdg.top",
   author: {
     name: "小何同学",
-    url: "https://github.com/MyHdg0601",
+    url: "https://github.com/xiaohe0601",
     email: "HeDianGeng0601@outlook.com"
   },
   locales: {
@@ -30,10 +30,10 @@ export default HopeTheme({
     }
   },
   logo: "/logo.svg",
-  repo: "https://github.com/MyHdg0601/xiaohejs",
+  repo: "https://github.com/xiaohe0601/xiaohejs",
   editLink: false,
   displayFooter: true,
-  copyright: `MIT License | Copyright ©️ 2022 <a href="https://github.com/MyHdg0601" target="_blank">小何同学</a>`,
+  copyright: `MIT License | Copyright ©️ 2022 <a href="https://github.com/xiaohe0601" target="_blank">小何同学</a>`,
   iconAssets: "iconfont",
   darkmode: "toggle",
   themeColor: {
