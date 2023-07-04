@@ -41,3 +41,11 @@ features:
     icon: launch
     details: 更多特性等你发掘...
 ---
+
+::: info 版本信息
+
+- 当前文档版本：<badge text="0.0.10" type="tip"></badge>
+
+- 最新代码版本：<badge text="0.0.10" type="info"></badge> [链接](https://www.npmjs.com/package/xiaohejs/v/0.0.10)
+
+:::
