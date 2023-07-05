@@ -14,7 +14,7 @@ Since：<badge text="0.0.1" vertical="middle"></badge>
 
 #### 参数
 
-- `[str]` (string)：字符串
+- `str` (string | null)：字符串
 
 - `[trim=false]` (boolean)：是否 `String#trim()`
 
@@ -49,7 +49,7 @@ StringUtils.isEmpty(str4);
 
 #### 参数
 
-- `[str]` (string)：字符串
+- `str` (string | null)：字符串
 
 - `[trim=false]` (boolean)：是否 `String#trim()`
 
@@ -86,15 +86,15 @@ StringUtils.isNotEmpty(str4);
 
 #### 参数
 
-- `[str]` (string)：待分割字符串
+- `str` (string | null)：待分割字符串
 
 - `[separator=","]` (string)：分隔符
 
-- `[options]` ([IStringUtilsSplitOptions](#istringutilssplitoptions))：配置项
+- `[options]` ([ISplitOptions](#isplitoptions))：配置项
 
 #### 类型
 
-##### IStringUtilsSplitOptions
+##### ISplitOptions
 
 |参数|说明|类型|可选值|默认值|
 |---|---|---|---|---|
@@ -133,7 +133,7 @@ StringUtils.split(str4, ";");
 
 #### 参数
 
-- `[str]` (string)：下划线风格字符串
+- `str` (string | null)：下划线风格字符串
 
 #### 返回
 
@@ -158,7 +158,7 @@ StringUtils.underline2hump(str2);
 
 #### 参数
 
-- `[str]` (string)：驼峰风格字符串
+- `str` (string | null)：驼峰风格字符串
 
 #### 返回
 
@@ -183,7 +183,7 @@ StringUtils.hump2underline(str2);
 
 #### 参数
 
-- `[num]` (number)：阿拉伯数字
+- `num` (number)：阿拉伯数字
 
 #### 返回
 
@@ -202,13 +202,13 @@ StringUtils.number2chinese(123);
 
 #### 参数
 
-- `[value]` (string)：Url地址
+- `value` (string | null)：Url地址
 
-- `[options]` ([IStringUtilsConvertUrlOptions](#istringutilsconverturloptions))：配置项
+- `[options]` ([IConvertUrlOptions](#iconverturloptions))：配置项
 
 #### 类型
 
-##### IStringUtilsConvertUrlOptions
+##### IConvertUrlOptions
 
 |参数|说明|类型|可选值|默认值|
 |---|---|---|---|---|
@@ -221,9 +221,9 @@ StringUtils.number2chinese(123);
 
 #### 配置
 
-- `StringUtils.ConvertUrlBase=""` (string)：默认Url基地址
+- `StringUtils.ConvertUrlConfig.base=""` (string)：默认Url基地址
 
-- `StringUtils.ConvertUrlStartsExcludes=["http","ws","udp","tcp"]` (string[])：例外的Url前缀
+- `StringUtils.ConvertUrlConfig.excludes=["http","ws","udp","tcp"]` (string[])：例外的Url前缀
 
 ::: details 使用示例（点击展开查看）
 ```javascript
@@ -258,11 +258,11 @@ StringUtils.convertUrl(url4);
 
 - `[length]` (number)：生成uuid的长度
 
-- `[options]` ([IStringUtilsUuidOptions](#istringutilsuuidoptions))：配置项
+- `[options]` ([IUuidOptions](#iuuidoptions))：配置项
 
 #### 类型
 
-##### IStringUtilsUuidOptions
+##### IUuidOptions
 
 |参数|说明|类型|可选值|默认值|
 |---|---|---|---|---|
@@ -291,9 +291,9 @@ StringUtils.uuid(10);
 
 - `[bit=0]` (number)：文件大小（单位：b）
 
-- `[options]` ([IStringUtilsFormatFileSizeOptions](#istringutilsformatfilesizeoptions))：配置项
+- `[options]` ([IFormatFileSizeOptions](#iformatfilesizeoptions))：配置项
 
-##### IStringUtilsFormatFileSizeOptions
+##### IFormatFileSizeOptions
 
 |参数|说明|类型|可选值|默认值|
 |---|---|---|---|---|

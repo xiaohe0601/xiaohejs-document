@@ -25,15 +25,15 @@ icon: light
 - 使用
 
 	```javascript
-	import { StringUtils } from "xiaohejs";
+	import xh from "xiaohejs";
 
-	StringUtils.isEmpty("");
+	xh.string.isEmpty("");
 	```
 
 	或
 
 	```javascript
-	import { StringUtils } from "xiaohejs/dist/esm";
+	import { string as StringUtils } from "xiaohejs/lib/esm";
 
 	StringUtils.isEmpty("");
 	```

@@ -44,8 +44,8 @@ features:
 
 ::: info 版本信息
 
-- 当前文档版本：<badge text="0.0.10" type="tip"></badge>
+- 当前文档版本：<badge text="0.1.4" type="tip"></badge>
 
-- 最新代码版本：<badge text="0.0.10" type="info"></badge> [链接](https://www.npmjs.com/package/xiaohejs/v/0.0.10)
+- 最新代码版本：<badge text="0.1.4" type="info"></badge> [链接](https://www.npmjs.com/package/xiaohejs/v/0.1.4)
 
 :::

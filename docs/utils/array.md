@@ -14,13 +14,13 @@ Since：<badge text="0.0.4" vertical="middle"></badge>
 
 #### 参数
 
-- `[array]` (any[])：扁平数组
+- `array` (any[])：扁平数组
 
-- `[options]` ([IArrayUtilsFlat2TreeOptions](#iarrayutilsflat2treeoptions))：配置项
+- `[options]` ([IFlat2TreeOptions](#iflat2treeoptions))：配置项
 
 #### 类型
 
-##### IArrayUtilsFlat2TreeOptions
+##### IFlat2TreeOptions
 
 |参数|说明|类型|可选值|默认值|
 |---|---|---|---|---|
@@ -99,13 +99,13 @@ ArrayUtils.flat2tree(array);
 
 #### 参数
 
-- `[array]` (any[])：树形结构数组
+- `array` (any[])：树形结构数组
 
-- `[options]` ([IArrayUtilsTree2FlatOptions](#iarrayutilstree2flatoptions))：配置项
+- `[options]` ([ITree2FlatOptions](#itree2flatoptions))：配置项
 
 #### 类型
 
-##### IArrayUtilsTree2FlatOptions
+##### ITree2FlatOptions
 
 |参数|说明|类型|可选值|默认值|
 |---|---|---|---|---|
@@ -171,13 +171,13 @@ ArrayUtils.tree2flat(array);
 
 #### 参数
 
-- `[array]` (any[])：树形结构数组
+- `array` (any[])：树形结构数组
 
-- `[options]` ([IArrayUtilsRecursiveTraversalOptions](#iarrayutilsrecursivetraversaloptions))：配置项
+- `[options]` ([IRecursiveTraversalOptions](#irecursivetraversaloptions))：配置项
 
 #### 类型
 
-##### IArrayUtilsRecursiveTraversalOptions
+##### IRecursiveTraversalOptions
 
 |参数|说明|类型|可选值|默认值|
 |---|---|---|---|---|
