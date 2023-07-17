@@ -3,14 +3,14 @@ title: ArrayUtils 数组
 ---
 
 ::: info
-Since：<badge text="0.0.4" vertical="middle"></badge>
+Since：<badge text="0.0.4"></badge>
 
 作者：小何同学
 :::
 
 ### ArrayUtils.flat2tree
 
-<badge text="0.0.4" vertical="middle"></badge> 扁平数组转树形结构数组
+<badge text="0.0.4"></badge> 扁平数组转树形结构数组
 
 #### 参数
 
@@ -95,7 +95,7 @@ ArrayUtils.flat2tree(array);
 
 ### ArrayUtils.tree2flat
 
-<badge text="0.0.4" vertical="middle"></badge> 树形结构数组转扁平数组
+<badge text="0.0.4"></badge> 树形结构数组转扁平数组
 
 #### 参数
 
@@ -167,7 +167,7 @@ ArrayUtils.tree2flat(array);
 
 ### ArrayUtils.recursiveTraversal
 
-<badge text="0.0.4" vertical="middle"></badge> 递归遍历树形结构数组
+<badge text="0.0.4"></badge> 递归遍历树形结构数组
 
 #### 参数
 

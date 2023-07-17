@@ -3,7 +3,7 @@ title: GeometryUtils 几何计算
 ---
 
 ::: info
-Since：<badge text="0.0.5" vertical="middle"></badge>
+Since：<badge text="0.0.5"></badge>
 
 作者：小何同学
 :::

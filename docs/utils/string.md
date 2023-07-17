@@ -3,14 +3,14 @@ title: StringUtils 字符串
 ---
 
 ::: info
-Since：<badge text="0.0.1" vertical="middle"></badge>
+Since：<badge text="0.0.1"></badge>
 
 作者：小何同学
 :::
 
 ### StringUtils.isEmpty
 
-<badge text="0.0.1" vertical="middle"></badge> 是否为空字符串
+<badge text="0.0.1"></badge> 是否为空字符串
 
 #### 参数
 
@@ -45,7 +45,7 @@ StringUtils.isEmpty(str4);
 
 ### StringUtils.isNotEmpty
 
-<badge text="0.0.1" vertical="middle"></badge> 是否为非空字符串
+<badge text="0.0.1"></badge> 是否为非空字符串
 
 #### 参数
 
@@ -80,7 +80,7 @@ StringUtils.isNotEmpty(str4);
 
 ### StringUtils.split
 
-<badge text="0.0.1" vertical="middle"></badge> 分割字符串
+<badge text="0.0.1"></badge> 分割字符串
 
 该方法与 `String#split` 差别是当 `str` 为 `null` 或者 `""` 时的返回值为 `[]`，并且可选择是否先去除首尾的分隔符再进行分割
 
@@ -129,7 +129,7 @@ StringUtils.split(str4, ";");
 
 ### StringUtils.underline2hump
 
-<badge text="0.0.1" vertical="middle"></badge> 下划线风格转驼峰风格字符串
+<badge text="0.0.1"></badge> 下划线风格转驼峰风格字符串
 
 #### 参数
 
@@ -154,7 +154,7 @@ StringUtils.underline2hump(str2);
 
 ### StringUtils.hump2underline
 
-<badge text="0.0.1" vertical="middle"></badge> 驼峰风格转下划线风格字符串
+<badge text="0.0.1"></badge> 驼峰风格转下划线风格字符串
 
 #### 参数
 
@@ -179,7 +179,7 @@ StringUtils.hump2underline(str2);
 
 ### StringUtils.number2chinese
 
-<badge text="0.0.4" vertical="middle"></badge> 阿拉伯数字转为中文数字
+<badge text="0.0.4"></badge> 阿拉伯数字转为中文数字
 
 #### 参数
 
@@ -198,7 +198,7 @@ StringUtils.number2chinese(123);
 
 ### StringUtils.convertUrl
 
-<badge text="0.0.6" vertical="middle"></badge> 转换Url相对路径
+<badge text="0.0.6"></badge> 转换Url相对路径
 
 #### 参数
 
@@ -250,7 +250,7 @@ StringUtils.convertUrl(url4);
 
 ### StringUtils.uuid
 
-<badge text="0.0.6" vertical="middle"></badge> 生成uuid
+<badge text="0.0.6"></badge> 生成uuid
 
 若未指定长度会生成rfc4122标准的uuid，否则只是生成随机字符串
 
@@ -285,7 +285,7 @@ StringUtils.uuid(10);
 
 ### StringUtils.formatFileSize
 
-<badge text="0.0.6" vertical="middle"></badge> 格式化文件大小
+<badge text="0.0.6"></badge> 格式化文件大小
 
 #### 参数
 
