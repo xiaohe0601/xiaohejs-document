@@ -49,3 +49,7 @@ features:
 - 最新代码版本：<badge text="0.1.4" type="info"></badge> [链接](https://www.npmjs.com/package/xiaohejs/v/0.1.4)
 
 :::
+
+::: warning 注意
+文档更新不一定及时。实际开发中请以本文档作为参考，若有差异则以代码中的JsDoc或d.ts文件为准，亦可直接阅读源码。
+:::
