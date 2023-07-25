@@ -33,7 +33,7 @@ icon: light
 	或
 
 	```javascript
-	import { string as StringUtils } from "xiaohejs/lib/esm";
+	import { string as StringUtils } from "xiaohejs";
 
 	StringUtils.isEmpty("");
 	```
