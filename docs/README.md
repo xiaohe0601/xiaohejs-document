@@ -44,7 +44,7 @@ features:
 
 ::: info 版本信息
 
-- 当前文档版本：<badge text="0.1.6" type="tip"></badge>
+- 当前文档版本：<badge text="0.1.7" type="tip"></badge>
 
 - 最新发行版本：[链接](https://github.com/xiaohe0601/xiaohejs/releases)
 

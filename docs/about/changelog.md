@@ -7,6 +7,12 @@ icon: blog
 此处仅记录主要变更，详细更新日志请查看 [GitHub Commits](https://github.com/xiaohe0601/xiaohejs/commits/main)
 :::
 
+### [0.1.7](https://github.com/xiaohe0601/xiaohejs/releases/tag/0.1.7) (2023-07-26)
+
+- 修复 StringUtils.number2chinese转换错误
+
+- 测试 集成Vitest并新增string、array模块的单元测试
+
 ### [0.1.6](https://github.com/xiaohe0601/xiaohejs/releases/tag/0.1.6) (2023-07-25)
 
 - 构建 移除type:module声明

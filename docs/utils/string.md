@@ -179,11 +179,11 @@ StringUtils.hump2underline(str2);
 
 ### StringUtils.number2chinese
 
-<badge text="0.0.4"></badge> 阿拉伯数字转为中文数字
+<badge text="0.0.4"></badge> 阿拉伯数字转为中文数字 (仅支持正整数)
 
 #### 参数
 
-- `num` (number)：阿拉伯数字
+- `x` (number)：阿拉伯数字
 
 #### 返回
 
