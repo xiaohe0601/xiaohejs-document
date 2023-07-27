@@ -12,6 +12,10 @@ Since：<badge text="0.0.1"></badge>
 
 <badge text="0.0.1"></badge> 是否为空字符串
 
+#### 别名
+
+isEmptyString
+
 #### 参数
 
 - `str` (string | null)：字符串
@@ -46,6 +50,10 @@ StringUtils.isEmpty(str4);
 ### StringUtils.isNotEmpty
 
 <badge text="0.0.1"></badge> 是否为非空字符串
+
+#### 别名
+
+isNotEmptyString
 
 #### 参数
 

@@ -7,6 +7,10 @@ icon: blog
 此处仅记录主要变更，详细更新日志请查看 [GitHub Commits](https://github.com/xiaohe0601/xiaohejs/commits/main)
 :::
 
+### [0.1.10](https://github.com/xiaohe0601/xiaohejs/releases/tag/0.1.10) (2023-07-27)
+
+- 优化 调整代码目录结构及导出以支持Tree-Shaking
+
 ### [0.1.7](https://github.com/xiaohe0601/xiaohejs/releases/tag/0.1.7) (2023-07-26)
 
 - 修复 StringUtils.number2chinese转换错误
