@@ -1,7 +1,7 @@
 import { hopeTheme as HopeTheme, navbar as Navbar, sidebar as Sidebar } from "vuepress-theme-hope";
 
 export default HopeTheme({
-  hostname: "https://xiaohejs.myhdg.top",
+  hostname: "https://xiaohejs.xiaohe.ink",
   author: {
     name: "小何同学",
     url: "https://github.com/xiaohe0601",
