@@ -10,7 +10,7 @@ export default defineUserConfig({
     "/": {
       lang: "zh-CN",
       title: "xiaohejs",
-      description: "🎈 小何同学的JavaScript工具箱"
+      description: "🎈 小何的JavaScript工具箱"
     }
   },
   theme: theme,

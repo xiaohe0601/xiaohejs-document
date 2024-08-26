@@ -5,7 +5,7 @@ title: StringUtils 字符串
 ::: info
 Since：<badge text="0.0.1"></badge>
 
-作者：小何同学
+作者：小何
 :::
 
 ### StringUtils.isEmpty

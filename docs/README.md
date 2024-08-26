@@ -1,10 +1,10 @@
 ---
 icon: home
-description: 🎈 小何同学的JavaScript工具箱
+description: 🎈 小何的JavaScript工具箱
 home: true
 heroImage: /logo.svg
 heroText: xiaohejs
-tagline: 🎈 小何同学的JavaScript工具箱
+tagline: 🎈 小何的JavaScript工具箱
 actions:
   - text: 快速上手
     link: /guide/getting-started
@@ -12,7 +12,7 @@ actions:
   - text: 工具列表
     link: /utils
     type: default
-  - text: 关于小何同学
+  - text: 关于小何
     link: /about/xiaohe
     type: default
 features:

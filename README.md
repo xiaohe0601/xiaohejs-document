@@ -1,6 +1,6 @@
 <div align="center">
   <h1>xiaohejs</h1>
-  <span>🎈 小何同学的JavaScript工具箱</span>
+  <span>🎈 小何的JavaScript工具箱</span>
 </div>
 
 <br>
@@ -15,7 +15,7 @@
 
 - [快速上手](https://xiaohejs.xiaohe.ink/guide/getting-started.html)
 
-- [小何同学](https://xiaohejs.xiaohe.ink/about/xiaohe.html)
+- [关于小何](https://xiaohejs.xiaohe.ink/about/xiaohe.html)
 
 ### 🎉 特性
 

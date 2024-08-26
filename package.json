@@ -1,7 +1,7 @@
 {
   "name": "xiaohejs-document",
   "version": "1.0.0",
-  "description": "🎈 小何同学的JavaScript工具箱",
+  "description": "🎈 小何的JavaScript工具箱",
   "license": "MIT",
   "type": "module",
   "scripts": {

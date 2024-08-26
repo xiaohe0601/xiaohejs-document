@@ -5,7 +5,7 @@ title: ArrayUtils 数组
 ::: info
 Since：<badge text="0.0.4"></badge>
 
-作者：小何同学
+作者：小何
 :::
 
 ### ArrayUtils.flat2tree
